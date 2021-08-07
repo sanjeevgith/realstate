@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="User.master.cs" Inherits="User" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Real Estate</title>
+
+ <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+ <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="gallery_style.css" />
+		<meta name="keywords" content="VisualLightBox, LightBox, Photo Gallery, javascript slideshow code, gallery generator" />
+		<meta name="description" content="Visual LightBox Gallery created with VisualLightBox, a free wizard program that helps you easily generate beautiful Lightbox-style web photo galleries" />
+				<!-- Start VisualLightBox.com HEAD section -->
+		<link rel="stylesheet" href="index_files/vlb_files1/vlightbox1.css" type="text/css" />
+		<link rel="stylesheet" href="index_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
+<script src="index_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
+		<script src="index_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
+		<!-- End VisualLightBox.com HEAD section -->
+    <style type="text/css">
+        .style2
+        {
+            font-family: "Arial Rounded MT Bold";
+            color: #0066FF;
+        }
+        .style3
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: small;
+        }
+    </style>
+</head>
+<body bgcolor="#d9d6c3">
+<div id="templatemo_container">
+    <form id="form1" runat="server">
+<div id="templatemo_top_panel">
+	<div id="templatemo_header_section">
+		<div id="templatemo_header">
+        	<span class="style2">TIWARI ENTERPRISES</span></div>
+    </div> <!-- end of header section -->
+    
+    <div id="templatemo_menu_login_section">
+    	<div id="templatemo_menu_section">
+        	<div id="templatemo_menu_panel">
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="default.aspx">Buy</a></li>
+                   
+                    <li><a href="gallery.aspx">Gallery</a></li>
+                    <li><a href="about.aspx">About</a></li>
+                    <li><a href="contact.aspx">Contact</a></li>
+                </ul> 
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <table width=100%>
+                <tr>
+                <td>
+                    <span class="style3"><strong>Welcome</strong></span>
+                    <asp:Label ID="lblUser" runat="server"></asp:Label></td>
+                <td align=right>
+                    <asp:LinkButton ID="lnkChngPwd" runat="server" CausesValidation="False" PostBackUrl="~/ChnagePwd.aspx"
+                        
+                        Style="text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: 700; font-size: medium;" 
+                        Width="118px">Change Password</asp:LinkButton>
+                    <asp:LinkButton ID="lnkRequest" runat="server" CausesValidation="False" PostBackUrl="~/RequestView.aspx"
+                        
+                        Style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: medium; font-weight: 700;" 
+                        Width="66px">Request</asp:LinkButton>
+                    <asp:LinkButton ID="lnkRegister" runat="server" CausesValidation="False" PostBackUrl="~/SignUp.aspx"
+                        
+                        Style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: medium; font-weight: 700;" 
+                        Width="66px">Register</asp:LinkButton>
+                    <asp:LinkButton ID="lnkLogin" runat="server" CausesValidation="False" OnClick="lnkLogin_Click"
+                        
+                        Style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: medium; font-weight: 700;" 
+                        Width="60px">Login</asp:LinkButton>&nbsp;
+                </td>
+                </tr>
+                </table>
+                
+            </div> <!-- end of menu -->
+        </div>
+        
+    </div> <!-- end of menu login section -->
+</div> <!-- end of top panel -->
+
+
+<script type="text/javascript">
+    var imgid = 'image';
+    var imgdir = 'images/fullsize';
+    var imgext = '.jpg';
+    var thumbid = 'thumbs';
+    var auto = true;
+    var autodelay = 5;
+</script>
+<script type="text/javascript" src="slide.js"></script>
+
+</div>
+   </form>
+      
+		<!-- Start VisualLightBox.com BODY section id=1 -->
+	<div id="vlightbox1">
+	<a class="vlightbox1" href="index_files/vlb_images1/135deerfield1024x577.jpg" title="The Pier,Grant road"><img src="index_files/vlb_thumbnails1/135deerfield1024x577.jpg" alt="The Pier,Grant road"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/611highlandavenue0021024x768.jpg" title="Redix,Santacruz"><img src="index_files/vlb_thumbnails1/611highlandavenue0021024x768.jpg" alt="Redix,Santacruz"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/download_1.jpg" title="Alkaff Mansion,colaba"><img src="index_files/vlb_thumbnails1/download_1.jpg" alt="Alkaff Mansion,colaba"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/download_2.jpg" title="Heaven,vashi"><img src="index_files/vlb_thumbnails1/download_2.jpg" alt="Heaven,vashi"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/download_3.jpg" title="Spring Grove, dadar"><img src="index_files/vlb_thumbnails1/download_3.jpg" alt="Spring Grove, dadar"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/download.jpg" title="Hurricane House,virar"><img src="index_files/vlb_thumbnails1/download.jpg" alt="Hurricane House,virar"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_1.jpg" title="High noon,kalyan"><img src="index_files/vlb_thumbnails1/images_1.jpg" alt="High noon,kalyan"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_10.jpg" title="Granary,Kharghar"><img src="index_files/vlb_thumbnails1/images_10.jpg" alt="Granary,Kharghar"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_12__copy.jpg" title="Royal villa,worli"><img src="index_files/vlb_thumbnails1/images_12__copy.jpg" alt="Royal villa,worli"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_13__copy.jpg" title="Hill criest ,Kharghar"><img src="index_files/vlb_thumbnails1/images_13__copy.jpg" alt="Hill criest ,Kharghar"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_14__copy.jpg" title="Bluehills,andheri"><img src="index_files/vlb_thumbnails1/images_14__copy.jpg" alt="Bluehills,andheri"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_15__copy.jpg" title="Karikal Mahal,marine line"><img src="index_files/vlb_thumbnails1/images_15__copy.jpg" alt="Karikal Mahal,marine line"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_16__copy.jpg" title="Jannat, fort"><img src="index_files/vlb_thumbnails1/images_16__copy.jpg" alt="Jannat, fort"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_2.jpg" title="Beaulieu House ,chembur"><img src="index_files/vlb_thumbnails1/images_2.jpg" alt="Beaulieu House ,chembur"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_20__copy.jpg" title="Wesley House, juhu"><img src="index_files/vlb_thumbnails1/images_20__copy.jpg" alt="Wesley House, juhu"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_3.jpg" title="Eco Villa,mankhurd"><img src="index_files/vlb_thumbnails1/images_3.jpg" alt="Eco Villa,mankhurd"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_7.jpg" title="Pearl Villa,bandra"><img src="index_files/vlb_thumbnails1/images_7.jpg" alt="Pearl Villa,bandra"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_8.jpg" title="Victoria,CST"><img src="index_files/vlb_thumbnails1/images_8.jpg" alt="Victoria,CST"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images_9.jpg" title="Sea Breeze Lodge,bandra"><img src="index_files/vlb_thumbnails1/images_9.jpg" alt="Sea Breeze Lodge,bandra"/></a>
+<a class="vlightbox1" href="index_files/vlb_images1/images.jpg" title="Paradi ,dombivli"><img src="index_files/vlb_thumbnails1/images.jpg" alt="Paradi ,dombivli"/></a>
+<span class="vlb"><a href="http://visuallightbox.com">visual lighbox</a>by VisualLightBox.com v5.9</span>
+	</div>
+	<script src="index_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>
+	<!-- End VisualLightBox.com BODY section -->
+
+ 
+	</body>
+
+</html>
+    
